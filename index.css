@@ -1,0 +1,103 @@
+#logo{
+    width: 90px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #8FBC8F;
+    border-width: 2px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+header p{
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+    margin: auto auto auto auto;
+}
+nav ul{
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    height: 100%;
+    position: relative;
+    bottom: 20px;
+}
+nav li {
+    margin: auto;
+}
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+main {
+    display: flex;
+}
+section {
+    width:65% !important;
+    line-height: 3;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #8FBC8F;
+    border-width: 2px;
+}
+aside {
+    width: 35% !important;
+    margin-left: 10px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #8FBC8F;
+    border-width: 2px;
+}
+aside div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+aside a {
+    width: 47%;
+    margin: 3px;
+}
+aside img {
+    width: 100%;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #8FBC8F;
+    border-width: 2px;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 30;
+}
+header, footer, html {
+    background-color: #90EE90;
+}
+section, aside, nav {
+    background-color: #00FF7F	
+}
+nav {
+    margin-bottom: 40px;
+    height: 70px;
+    border-style: solid;
+    border-color: #8FBC8F;
+    border-width: 2px;
+    border-radius: 8px;
+    margin-top: 4px;
+}
+footer {
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #8FBC8F;
+    border-width: 2px;
+    margin-top: 4px;
+}
+
